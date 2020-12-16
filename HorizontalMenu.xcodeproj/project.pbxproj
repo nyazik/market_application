@@ -22,6 +22,7 @@
 		213A3ABF200A98790071B244 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A3ABA200A98790071B244 /* SecondViewController.swift */; };
 		448D127B24CF1C0AAAC79FAA /* Pods_HorizontalMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48C7DD1C844DD4FBB299697 /* Pods_HorizontalMenu.framework */; };
 		CD05991F25856E3C00E39100 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD05991E25856E3C00E39100 /* ProductData.swift */; };
+		CD3BCAEF25880FDB005AF727 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BCAEE25880FDB005AF727 /* CartTableViewController.swift */; };
 		CD577B2725853D7C0087DD1D /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD577B2525853D7B0087DD1D /* Cell.xib */; };
 		CD577B2825853D7C0087DD1D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD577B2625853D7C0087DD1D /* Cell.swift */; };
 		CD59395825856B5F00B1907E /* ProductProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59395725856B5F00B1907E /* ProductProvider.swift */; };
@@ -47,6 +48,7 @@
 		3B4A4631D87CCF638A6BC460 /* Pods-HorizontalMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		C48C7DD1C844DD4FBB299697 /* Pods_HorizontalMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD05991E25856E3C00E39100 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		CD3BCAEE25880FDB005AF727 /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
 		CD577B2525853D7B0087DD1D /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		CD577B2625853D7C0087DD1D /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		CD59395725856B5F00B1907E /* ProductProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductProvider.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				213A3AB5200A98790071B244 /* Screens */,
 				213A3AAB200A980E0071B244 /* MasterViewController.swift */,
 				213A3AAD200A980E0071B244 /* MenuViewController.swift */,
+				CD3BCAEE25880FDB005AF727 /* CartTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				CD577B2825853D7C0087DD1D /* Cell.swift in Sources */,
 				213A3ABF200A98790071B244 /* SecondViewController.swift in Sources */,
 				213A3ABC200A98790071B244 /* FirstViewController.swift in Sources */,
+				CD3BCAEF25880FDB005AF727 /* CartTableViewController.swift in Sources */,
 				CD05991F25856E3C00E39100 /* ProductData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

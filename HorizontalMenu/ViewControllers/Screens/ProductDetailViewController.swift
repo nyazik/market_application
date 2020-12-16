@@ -5,61 +5,65 @@
 //  Created by Nazik on 13.12.2020.
 //  Copyright © 2020 Ramprasad A. All rights reserved.
 //
+protocol ProductDetailViewControllerDelegate {
+    func addItemToCart()
+}
 
 import UIKit
 
 class ProductDetailViewController: UIViewController {
 
+    var delegate : ProductDetailViewControllerDelegate?
     @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var productTitle: UILabel!
     @IBOutlet weak var stepper: UIStepper!
     @IBOutlet weak var productQuantity: UILabel!
     @IBOutlet weak var productPrice: UILabel!
-    
-    var quantityF : String = ""
-    var priceF : String = ""
-    var finalPrice : Double = 0.0
+    var product: ProductData?
+    var cartTableViewController : CartTableViewController?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        stepper.value = 1
-        
     }
     
-    
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
-        productQuantity.text = Int(sender.value).description
-        
-        if let quantity = productQuantity.text{
-            quantityF = quantity
-            print(quantityF)
-        }
-        if let price = productPrice.text{
-            priceF = price
-            print(priceF)
-        finalPrice = (Double(quantityF)! * Double(priceF)!)
-        print(finalPrice)
-        }
-        
-        productPrice.text = String(finalPrice)
-        
-//            if var quantity = productQuantity.text, var price = productPrice.text{
-//                finalPrice = Double(quantity)! * Double(price)!
-//            }
-            
+        let value = sender.value
+        productQuantity.text = "\(value)"
+        productPrice.text = "\(value * (product?.price ?? 0))"
     }
     
     @IBAction func addButtonPressed(_ sender: UIButton) {
+        cartTableViewController = self.storyboard?.instantiateViewController(withIdentifier: "CartTableViewController") as? CartTableViewController
+//        cartTableViewController!.modalPresentationStyle = .popover
+//        let popover = self.cartTableViewController!.popoverPresentationController
         
+//        let cell = self.collectionView.cellForItem(at: indexPath) as! Cell
+        let _ = cartTableViewController?.view
+//        cartTableViewController?.image.image = product?.image
+        
+        if let data = self.product {
+            cartTableViewController?.populate1(with: data)
+            
+        }
+        
+        dismiss(animated: true, completion: nil)
+
+//        popover!.sourceView = self.view
+//        present(self.cartTableViewController!, animated: true, completion: nil)
     }
     
     func populate(with product: ProductData){
         
-        productPrice.text = String(product.price)
+        self.product = product
+        
+        stepper.value = 1
+        stepper.minimumValue = 1.0
+        stepper.stepValue = 1
+        
+        productPrice.text = "\(product.price)"
         productTitle.text = product.title
         
     }
-
-    
     
     
     
