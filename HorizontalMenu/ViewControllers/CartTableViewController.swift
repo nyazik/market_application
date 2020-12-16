@@ -25,13 +25,14 @@ class CartTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
-        
+        tableView.reloadData()
     }
-
+    
     // MARK: - Table view data source
 
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print(product)
         return product.count //product.count
     }
 
@@ -69,7 +70,7 @@ class CartTableViewController: UITableViewController {
     func populate1(with product: ProductData){
         self.product = [product]
         print(self.product)
-        
+        tableView.reloadData()
     }
     
     
