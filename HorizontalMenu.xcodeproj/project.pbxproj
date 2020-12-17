@@ -20,14 +20,16 @@
 		213A3ABD200A98790071B244 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A3AB8200A98790071B244 /* FifthViewController.swift */; };
 		213A3ABE200A98790071B244 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A3AB9200A98790071B244 /* FourthViewController.swift */; };
 		213A3ABF200A98790071B244 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A3ABA200A98790071B244 /* SecondViewController.swift */; };
-		57685B0BA9D4DFD1A3C4034A /* Pods_HorizontalMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AAD83AB1F40C9A0FF6D108 /* Pods_HorizontalMenu.framework */; };
 		CD05991F25856E3C00E39100 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD05991E25856E3C00E39100 /* ProductData.swift */; };
-		CD26CFC3258A77A90042447F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD26CFC2258A77A90042447F /* GoogleService-Info.plist */; };
 		CD3BCAEF25880FDB005AF727 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3BCAEE25880FDB005AF727 /* CartTableViewController.swift */; };
 		CD577B2725853D7C0087DD1D /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD577B2525853D7B0087DD1D /* Cell.xib */; };
 		CD577B2825853D7C0087DD1D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD577B2625853D7C0087DD1D /* Cell.swift */; };
 		CD59395825856B5F00B1907E /* ProductProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD59395725856B5F00B1907E /* ProductProvider.swift */; };
 		CD5965F7258689EA00F229B3 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5965F6258689EA00F229B3 /* ProductDetailViewController.swift */; };
+		CD85E1CF258B4C7A001675CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD85E1CE258B4C7A001675CB /* GoogleService-Info.plist */; };
+		CD85E1D2258B4CC4001675CB /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD85E1D1258B4CC4001675CB /* credentials.plist */; };
+		CD85E1E7258B4E9F001675CB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E1E6258B4E9F001675CB /* UserViewController.swift */; };
+		F996FDDBF9AD77B71F4B1EB9 /* Pods_HorizontalMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725F6E50AE7D8E0AEF6527C0 /* Pods_HorizontalMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,16 +48,18 @@
 		213A3AB8200A98790071B244 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		213A3AB9200A98790071B244 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		213A3ABA200A98790071B244 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		23AAD83AB1F40C9A0FF6D108 /* Pods_HorizontalMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24391FCB2243C11E7F82187A /* Pods-HorizontalMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.debug.xcconfig"; sourceTree = "<group>"; };
-		6079B2E1D3305E8B061ECA56 /* Pods-HorizontalMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.release.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.release.xcconfig"; sourceTree = "<group>"; };
+		725F6E50AE7D8E0AEF6527C0 /* Pods_HorizontalMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6163FBF1277B704F71D1187 /* Pods-HorizontalMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		CD05991E25856E3C00E39100 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
-		CD26CFC2258A77A90042447F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD3BCAEE25880FDB005AF727 /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
 		CD577B2525853D7B0087DD1D /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		CD577B2625853D7C0087DD1D /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 		CD59395725856B5F00B1907E /* ProductProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductProvider.swift; sourceTree = "<group>"; };
 		CD5965F6258689EA00F229B3 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		CD85E1CE258B4C7A001675CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD85E1D1258B4CC4001675CB /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		CD85E1E6258B4E9F001675CB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		E2C06D92D3A012BF2EF140BB /* Pods-HorizontalMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.release.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57685B0BA9D4DFD1A3C4034A /* Pods_HorizontalMenu.framework in Frameworks */,
+				F996FDDBF9AD77B71F4B1EB9 /* Pods_HorizontalMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +80,7 @@
 				213A3A81200A593A0071B244 /* HorizontalMenu */,
 				213A3A80200A593A0071B244 /* Products */,
 				914D498A63CBC947C2C5F4C6 /* Pods */,
-				F877BF4D9D32DCB7914ECDFF /* Frameworks */,
+				9D610F0475C6023274374035 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +95,6 @@
 		213A3A81200A593A0071B244 /* HorizontalMenu */ = {
 			isa = PBXGroup;
 			children = (
-				CD26CFC2258A77A90042447F /* GoogleService-Info.plist */,
 				213A3AA6200A980E0071B244 /* ViewControllers */,
 				CD59395A25856B6E00B1907E /* Providers */,
 				CD05992125856E4000E39100 /* Models */,
@@ -100,6 +103,8 @@
 				CD0BA34325862C2C00384C87 /* Views */,
 				213A3A89200A593A0071B244 /* Assets.xcassets */,
 				213A3A8B200A593A0071B244 /* LaunchScreen.storyboard */,
+				CD85E1CE258B4C7A001675CB /* GoogleService-Info.plist */,
+				CD85E1D1258B4CC4001675CB /* credentials.plist */,
 				213A3A8E200A593A0071B244 /* Info.plist */,
 				213A3A96200A5AB60071B244 /* CustomMenuCell.swift */,
 			);
@@ -113,6 +118,7 @@
 				213A3AAB200A980E0071B244 /* MasterViewController.swift */,
 				213A3AAD200A980E0071B244 /* MenuViewController.swift */,
 				CD3BCAEE25880FDB005AF727 /* CartTableViewController.swift */,
+				CD85E1E6258B4E9F001675CB /* UserViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -133,10 +139,18 @@
 		914D498A63CBC947C2C5F4C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				24391FCB2243C11E7F82187A /* Pods-HorizontalMenu.debug.xcconfig */,
-				6079B2E1D3305E8B061ECA56 /* Pods-HorizontalMenu.release.xcconfig */,
+				B6163FBF1277B704F71D1187 /* Pods-HorizontalMenu.debug.xcconfig */,
+				E2C06D92D3A012BF2EF140BB /* Pods-HorizontalMenu.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D610F0475C6023274374035 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				725F6E50AE7D8E0AEF6527C0 /* Pods_HorizontalMenu.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CD05992125856E4000E39100 /* Models */ = {
@@ -173,14 +187,6 @@
 			path = Providers;
 			sourceTree = "<group>";
 		};
-		F877BF4D9D32DCB7914ECDFF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				23AAD83AB1F40C9A0FF6D108 /* Pods_HorizontalMenu.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,11 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 213A3A91200A593A0071B244 /* Build configuration list for PBXNativeTarget "HorizontalMenu" */;
 			buildPhases = (
-				DF503B8BE238C2C7320D905B /* [CP] Check Pods Manifest.lock */,
+				735B1EBD2C0CD3C320B809AE /* [CP] Check Pods Manifest.lock */,
 				213A3A7B200A593A0071B244 /* Sources */,
 				213A3A7C200A593A0071B244 /* Frameworks */,
 				213A3A7D200A593A0071B244 /* Resources */,
-				C3AC101C63F68703117A1A61 /* [CP] Embed Pods Frameworks */,
+				DB67D66998852540E8333017 /* [CP] Embed Pods Frameworks */,
+				17AB2A86B8D8003B75E189F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,8 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				213A3A8D200A593A0071B244 /* LaunchScreen.storyboard in Resources */,
+				CD85E1D2258B4CC4001675CB /* credentials.plist in Resources */,
 				CD577B2725853D7C0087DD1D /* Cell.xib in Resources */,
-				CD26CFC3258A77A90042447F /* GoogleService-Info.plist in Resources */,
+				CD85E1CF258B4C7A001675CB /* GoogleService-Info.plist in Resources */,
 				213A3A8A200A593A0071B244 /* Assets.xcassets in Resources */,
 				213A3A88200A593A0071B244 /* Main.storyboard in Resources */,
 			);
@@ -253,47 +261,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C3AC101C63F68703117A1A61 /* [CP] Embed Pods Frameworks */ = {
+		17AB2A86B8D8003B75E189F1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
-				"${BUILT_PRODUCTS_DIR}/FirebaseDatabase/FirebaseDatabase.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseDatabase.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DF503B8BE238C2C7320D905B /* [CP] Check Pods Manifest.lock */ = {
+		735B1EBD2C0CD3C320B809AE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -315,6 +301,32 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DB67D66998852540E8333017 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -323,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD59395825856B5F00B1907E /* ProductProvider.swift in Sources */,
+				CD85E1E7258B4E9F001675CB /* UserViewController.swift in Sources */,
 				213A3AB2200A980E0071B244 /* MasterViewController.swift in Sources */,
 				213A3AB4200A980E0071B244 /* MenuViewController.swift in Sources */,
 				213A3AA5200A888A0071B244 /* EmptySegue.swift in Sources */,
@@ -471,7 +484,7 @@
 		};
 		213A3A92200A593A0071B244 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24391FCB2243C11E7F82187A /* Pods-HorizontalMenu.debug.xcconfig */;
+			baseConfigurationReference = B6163FBF1277B704F71D1187 /* Pods-HorizontalMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,7 +500,7 @@
 		};
 		213A3A93200A593A0071B244 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6079B2E1D3305E8B061ECA56 /* Pods-HorizontalMenu.release.xcconfig */;
+			baseConfigurationReference = E2C06D92D3A012BF2EF140BB /* Pods-HorizontalMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

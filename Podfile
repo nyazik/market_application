@@ -10,7 +10,9 @@ target 'HorizontalMenu' do
 
 pod 'Alamofire'
 pod 'Kingfisher'
-pod 'Firebase/Auth'
-pod 'Firebase/Database'
+#pod 'Firebase/Auth'
+pod 'GoogleSignIn'
+
+
 
 end

@@ -515,13 +515,23 @@
             </objects>
             <point key="canvasLocation" x="-184" y="885"/>
         </scene>
-        <!--View Controller-->
+        <!--User View Controller-->
         <scene sceneID="wfR-Hx-Sus">
             <objects>
-                <viewController id="jZJ-Jp-chq" sceneMemberID="viewController">
+                <viewController id="jZJ-Jp-chq" customClass="UserViewController" customModule="HorizontalMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dDC-1Q-lLo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnE-T9-Zmw" customClass="GIDSignInButton">
+                                <rect key="frame" x="184" y="604" width="46" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="sign:" destination="jZJ-Jp-chq" eventType="touchUpInside" id="Y6l-da-TwB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="eFb-GC-2Mz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -576,6 +586,7 @@
                     <connections>
                         <segue destination="eQk-HT-r4D" kind="relationship" relationship="viewControllers" id="jke-DU-Akt"/>
                         <segue destination="8aX-Y2-Xoj" kind="relationship" relationship="viewControllers" id="vaG-yb-iLn"/>
+                        <segue destination="jZJ-Jp-chq" kind="relationship" relationship="viewControllers" id="7a4-nc-tVu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pzA-Sr-q28" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
