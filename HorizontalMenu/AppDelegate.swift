@@ -7,13 +7,41 @@
 //
 
 import UIKit
-//import Firebase
+import Firebase
 import GoogleSignIn
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     var window: UIWindow?
+    
+    
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        print("jerry\(Realm.Configuration.defaultConfiguration.fileURL)")
+ 
+        do{
+            let realm = try Realm()
+//            try realm.write{
+//                realm.add(data)
+//            }
+        }catch{
+            print("nazik error\(error)")
+        }
+        
+        
+        FirebaseApp.configure()
+
+//        GIDSignIn.sharedInstance().clientID = "752636301343-mahb0nopknkvh25k4keouoj9gd49ed80.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
+        GIDSignIn.sharedInstance().delegate = self
+        return true
+    }
+
+    
+    
 
     @available(iOS 9.0, *)
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
@@ -36,10 +64,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         print(user.profile.imageURL(withDimension: 400))
       }
         
-//        guard let authentication = user.authentication else { return }
-//          let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
-//                                                            accessToken: authentication.accessToken)
-//          // ...
+        guard let authentication = user.authentication else { return }
+          let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
+                                                            accessToken: authentication.accessToken)
+          // ...
         
       // Perform any operations on signed in user here.
       let userId = user.userID                  // For client-side use only!
@@ -57,13 +85,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     }
 
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-
-        GIDSignIn.sharedInstance().clientID = "752636301343-mahb0nopknkvh25k4keouoj9gd49ed80.apps.googleusercontent.com"
-          GIDSignIn.sharedInstance().delegate = self
-        return true
-    }
-
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

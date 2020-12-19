@@ -8,6 +8,7 @@
 
 import Foundation
 import  Alamofire
+
 struct ProductProvider  {
     var productURL = "https://fakestoreapi.com/products"
     

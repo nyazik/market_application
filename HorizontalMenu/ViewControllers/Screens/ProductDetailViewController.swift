@@ -10,9 +10,13 @@ protocol ProductDetailViewControllerDelegate {
 }
 
 import UIKit
+import RealmSwift
+
 
 class ProductDetailViewController: UIViewController {
-
+    
+    let realm = try! Realm()
+    
     var delegate : ProductDetailViewControllerDelegate?
     @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var productTitle: UILabel!
@@ -21,7 +25,9 @@ class ProductDetailViewController: UIViewController {
     @IBOutlet weak var productPrice: UILabel!
     var product: ProductData?
     var cartTableViewController : CartTableViewController?
-
+    var productArray = [Product]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -41,9 +47,19 @@ class ProductDetailViewController: UIViewController {
         let _ = cartTableViewController?.view
 //        cartTableViewController?.image.image = product?.image
         
-        if let data = self.product {
-            cartTableViewController?.populate1(with: data)
+        if let data = self.product, let quantity = productQuantity.text, let price =  productPrice.text{
+            //cartTableViewController?.populate1(with: data)
+            let newCategory = Product()
+            newCategory.title = String(data.title)
+            newCategory.category = data.category
+            newCategory.price = Double(price)!
+            newCategory.image = data.image!
+            newCategory.quantity = quantity
+            newCategory.isInCart = true
+            print("quantity \(productQuantity.text)")
+            self.productArray.append(newCategory)
             
+            self.save(product: newCategory)
         }
         
         dismiss(animated: true, completion: nil)
@@ -68,3 +84,20 @@ class ProductDetailViewController: UIViewController {
     
     
 }
+
+
+extension ProductDetailViewController {
+    
+    func save(product: Product){
+        do{
+            try realm.write(){
+                realm.add(product)
+            }
+        }catch{
+            print("error saving categories\(error)")
+        }
+//        tableView.reloadData()
+    }
+    
+}
+

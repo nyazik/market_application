@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0619B77F280C54CF7AF88A3E /* Pods_HorizontalMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1216BF56F7F34C25AD0A2DE /* Pods_HorizontalMenu.framework */; };
 		213A3A83200A593A0071B244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213A3A82200A593A0071B244 /* AppDelegate.swift */; };
 		213A3A88200A593A0071B244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213A3A86200A593A0071B244 /* Main.storyboard */; };
 		213A3A8A200A593A0071B244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 213A3A89200A593A0071B244 /* Assets.xcassets */; };
@@ -29,10 +30,11 @@
 		CD85E1CF258B4C7A001675CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD85E1CE258B4C7A001675CB /* GoogleService-Info.plist */; };
 		CD85E1D2258B4CC4001675CB /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD85E1D1258B4CC4001675CB /* credentials.plist */; };
 		CD85E1E7258B4E9F001675CB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E1E6258B4E9F001675CB /* UserViewController.swift */; };
-		F996FDDBF9AD77B71F4B1EB9 /* Pods_HorizontalMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725F6E50AE7D8E0AEF6527C0 /* Pods_HorizontalMenu.framework */; };
+		CDDFE83E258B7DCD0033AC2D /* AllData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDFE83D258B7DCD0033AC2D /* AllData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		071A059DD56FA83034BBB595 /* Pods-HorizontalMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		213A3A7F200A593A0071B244 /* HorizontalMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		213A3A82200A593A0071B244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		213A3A87200A593A0071B244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,8 +50,8 @@
 		213A3AB8200A98790071B244 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		213A3AB9200A98790071B244 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		213A3ABA200A98790071B244 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		725F6E50AE7D8E0AEF6527C0 /* Pods_HorizontalMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6163FBF1277B704F71D1187 /* Pods-HorizontalMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.debug.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		5F95786F938066E018FE736F /* Pods-HorizontalMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.release.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.release.xcconfig"; sourceTree = "<group>"; };
+		A1216BF56F7F34C25AD0A2DE /* Pods_HorizontalMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD05991E25856E3C00E39100 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
 		CD3BCAEE25880FDB005AF727 /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
 		CD577B2525853D7B0087DD1D /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		CD85E1CE258B4C7A001675CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD85E1D1258B4CC4001675CB /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		CD85E1E6258B4E9F001675CB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
-		E2C06D92D3A012BF2EF140BB /* Pods-HorizontalMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HorizontalMenu.release.xcconfig"; path = "Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu.release.xcconfig"; sourceTree = "<group>"; };
+		CDDFE83D258B7DCD0033AC2D /* AllData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F996FDDBF9AD77B71F4B1EB9 /* Pods_HorizontalMenu.framework in Frameworks */,
+				0619B77F280C54CF7AF88A3E /* Pods_HorizontalMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +82,7 @@
 				213A3A81200A593A0071B244 /* HorizontalMenu */,
 				213A3A80200A593A0071B244 /* Products */,
 				914D498A63CBC947C2C5F4C6 /* Pods */,
-				9D610F0475C6023274374035 /* Frameworks */,
+				BF1C060855CD46230E7F22AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,16 +141,16 @@
 		914D498A63CBC947C2C5F4C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B6163FBF1277B704F71D1187 /* Pods-HorizontalMenu.debug.xcconfig */,
-				E2C06D92D3A012BF2EF140BB /* Pods-HorizontalMenu.release.xcconfig */,
+				071A059DD56FA83034BBB595 /* Pods-HorizontalMenu.debug.xcconfig */,
+				5F95786F938066E018FE736F /* Pods-HorizontalMenu.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		9D610F0475C6023274374035 /* Frameworks */ = {
+		BF1C060855CD46230E7F22AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				725F6E50AE7D8E0AEF6527C0 /* Pods_HorizontalMenu.framework */,
+				A1216BF56F7F34C25AD0A2DE /* Pods_HorizontalMenu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				CD05991E25856E3C00E39100 /* ProductData.swift */,
+				CDDFE83D258B7DCD0033AC2D /* AllData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -194,12 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 213A3A91200A593A0071B244 /* Build configuration list for PBXNativeTarget "HorizontalMenu" */;
 			buildPhases = (
-				735B1EBD2C0CD3C320B809AE /* [CP] Check Pods Manifest.lock */,
+				533E47A7402E4AFA44C9B48A /* [CP] Check Pods Manifest.lock */,
 				213A3A7B200A593A0071B244 /* Sources */,
 				213A3A7C200A593A0071B244 /* Frameworks */,
 				213A3A7D200A593A0071B244 /* Resources */,
-				DB67D66998852540E8333017 /* [CP] Embed Pods Frameworks */,
-				17AB2A86B8D8003B75E189F1 /* [CP] Copy Pods Resources */,
+				0FA4C5429EAFAA452AFDC75A /* [CP] Embed Pods Frameworks */,
+				C56DEAB4E3971B7799557E72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,25 +264,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		17AB2A86B8D8003B75E189F1 /* [CP] Copy Pods Resources */ = {
+		0FA4C5429EAFAA452AFDC75A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		735B1EBD2C0CD3C320B809AE /* [CP] Check Pods Manifest.lock */ = {
+		533E47A7402E4AFA44C9B48A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,30 +330,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB67D66998852540E8333017 /* [CP] Embed Pods Frameworks */ = {
+		C56DEAB4E3971B7799557E72 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HorizontalMenu/Pods-HorizontalMenu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -347,6 +368,7 @@
 				CD5965F7258689EA00F229B3 /* ProductDetailViewController.swift in Sources */,
 				CD577B2825853D7C0087DD1D /* Cell.swift in Sources */,
 				213A3ABF200A98790071B244 /* SecondViewController.swift in Sources */,
+				CDDFE83E258B7DCD0033AC2D /* AllData.swift in Sources */,
 				213A3ABC200A98790071B244 /* FirstViewController.swift in Sources */,
 				CD3BCAEF25880FDB005AF727 /* CartTableViewController.swift in Sources */,
 				CD05991F25856E3C00E39100 /* ProductData.swift in Sources */,
@@ -484,14 +506,15 @@
 		};
 		213A3A92200A593A0071B244 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6163FBF1277B704F71D1187 /* Pods-HorizontalMenu.debug.xcconfig */;
+			baseConfigurationReference = 071A059DD56FA83034BBB595 /* Pods-HorizontalMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CR2U55444G;
 				INFOPLIST_FILE = HorizontalMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nazik.com;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pazaport.e-ticaret";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,14 +523,15 @@
 		};
 		213A3A93200A593A0071B244 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2C06D92D3A012BF2EF140BB /* Pods-HorizontalMenu.release.xcconfig */;
+			baseConfigurationReference = 5F95786F938066E018FE736F /* Pods-HorizontalMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CR2U55444G;
 				INFOPLIST_FILE = HorizontalMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nazik.com;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pazaport.e-ticaret";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

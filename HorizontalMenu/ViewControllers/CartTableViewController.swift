@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class YourCell : UITableViewCell{
     @IBOutlet var productImage: UIImageView!
@@ -18,22 +19,29 @@ class YourCell : UITableViewCell{
 
 class CartTableViewController: UITableViewController {
     
+    let realm = try! Realm()
+    
     var cell: YourCell?
-    
-    var product: [ProductData] = []
-    
+        
+    var product: Results<Product>!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
+        loadCategories()
         tableView.reloadData()
     }
     
     // MARK: - Table view data source
 
+    override func viewWillAppear(_ animated: Bool) {
+        loadCategories()
+        tableView.reloadData()
+    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(product)
-        return product.count //product.count
+
+        return product.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -44,6 +52,8 @@ class CartTableViewController: UITableViewController {
             cell.productImage.kf.setImage(with: url)
             cell.productTitle.text = String(product[indexPath.row].title)
             cell.productPrice.text = String(product[indexPath.row].price)
+            cell.productQuantity.text = product[indexPath.row].quantity
+            
         }
         return cell
     }
@@ -59,24 +69,19 @@ class CartTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             print("Deleted")
-
+            
             self.tableView.deleteRows(at: [indexPath], with: .automatic)
-//            tableView.reloadData()
+            tableView.reloadData()
           }
     }
-    
-    
-    
-    func populate1(with product: ProductData){
-        self.product = [product]
-        print(self.product)
-        tableView.reloadData()
-    }
-    
     
     
 }
 
     
-    
-
+extension CartTableViewController{
+    func loadCategories(){
+        product = realm.objects(Product.self)
+        tableView.reloadData()
+    }
+}
